@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Chestionare auto</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="../css/question.css"/>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="well well-sm header" style="margin:2px;">
+        <span id="count"></span>
+        <span id="time"></span>
+
+    </div>
+    <div class="well well-lg description" >
+      <div class="row">
+        <div class="col-sm-8">
+            <h3 id="question"></h3>
+        </div>
+        <div class="col-sm-4" style="overflow:auto;">
+           <a href="311.html" id="icon"> </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="well well-lg">
+        <ol class="" type="A">
+            <li class="list" id="rasp1"> rasp1</li>
+            <li class="list" id="rasp2"> rasp2</li>
+            <li class="list" id="rasp3"> rasp3</li>
+        </ol>
+    </div>
+
+    <div class="btn center-block">
+        <button type="button" class="btn btn-primary" id="a">A</button>
+        <button type="button" class="btn btn-primary" id="b">B</button>
+        <button type="button" class="btn btn-primary" id="c">C</button>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 text-center">
+            <button type="button" class="btn btn-default btn-lg" id="later">
+                <span class="glyphicon glyphicon-repeat orange"></span>  Raspund mai tarziu
+            </button>
+        </div>
+        <div class="col-sm-4 text-center">
+            <button type="button" class="btn btn-default btn-lg" id="delete">
+                <span class="glyphicon glyphicon-remove red"></span> Sterg raspunsul
+            </button>
+        </div>
+        <div class="col-sm-4 text-center">
+            <button type="button" class="btn btn-default btn-lg" id="send">
+                <span class="glyphicon glyphicon-ok green"></span> Trimit raspunsul
+            </button>
+            </div>
+    </div>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/date.js"></script>
+<script src=../js/chestionar.js></script>
+
+</body>
+</html>

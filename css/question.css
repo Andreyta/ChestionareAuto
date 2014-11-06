@@ -1,0 +1,29 @@
+.header {}
+
+#icon {
+    overflow:hidden;
+}
+
+#a,#b,#c{
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.highlighted {
+    background-color: rgba(221, 47, 38, 0.65);
+}
+
+.corect{
+    background-color: #5bda43;
+}
+
+
+.green{
+    color:green;
+}
+.orange{
+    color: #bf6800;
+}
+.red {
+    color:red;
+}

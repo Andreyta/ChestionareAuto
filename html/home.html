@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Chestionare auto</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="../css/home.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Chestionare auto</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Acasa</a></li>
+                <li><a href="../html/question.html">Intrebari</a></li>
+
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login </a>
+                    <div class="dropdown-menu" style="padding:17px;">
+                        <form class="form" id="formLogin">
+                            <label >Conecteaza-te</label>
+                            <input name="username" id="username" type="text" placeholder="Username">
+                            <input name="password" id="password" type="password" placeholder="Password"><br>
+                            <button type="button" id="login" class="btn">Login</button>
+                        </form>
+                        <form action="">
+                            <a href="#" id="btnRegister" data-toggle="collapse" data-target="#formRegister">Inscrie-te</a>
+                        </form>
+                        <form id="formRegister" class="form collapse" >
+                            <input name="email" type="email" id="inputEmail" placeholder="Email">
+                            <input name="username" type="text" id="inputUsername" placeholder="Username" pattern="^[a-z,A-Z,0-9,_]{6,15}$">
+                            <input name="password" type="password" id="inputPassword" placeholder="Password" required>
+                            <input name="verify" type="password" id="inputVerify" placeholder="Password(again)" required>
+                            <button type="button" id="register" class="btn">Register</button>
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
