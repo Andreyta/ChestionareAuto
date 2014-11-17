@@ -9,4 +9,4 @@ ChestionareAuto
 Aplicatia este dezvoltata folosind Bootstrap 3 pentru interfata,javascript iar datele sunt stocate intr-un obiect de tip JSON, ca frameworkuri adiacente s-a folosit JQuery.
 Pentru realizarea proiectului am adunat informatii si le-am stocat, am dezvoltat logica aplicatiei si am lucrat integral la ea.
 
-![DEMO](http://s2.postimg.org/c8eh3hdyf/Screen_Shot_2014_11_17_at_7_07_36_PM.png)
+[DEMO](http://s2.postimg.org/c8eh3hdyf/Screen_Shot_2014_11_17_at_7_07_36_PM.png)
